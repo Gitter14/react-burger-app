@@ -31,7 +31,7 @@ class BurgerIngredient extends Component {
                 ingredient = <div className={classes.Cheese}></div>
             break;
             default:
-                ingredient = <p>Incorrect burger ingredient value</p>
+                ingredient = <div> <p>Incorrect burger ingredient value</p> </div>
         }
     
         return ingredient;
